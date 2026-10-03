@@ -1,0 +1,5 @@
+# НЕ нужно для обычной работы бота. Только если включаешь реальную проверку квитанций
+# check.gov.ua (CHECK_GOV_UA_MODE=playwright в .env). По умолчанию работает заглушка (см. uapay.py).
+#   pip install -r requirements-optional.txt
+#   playwright install chromium                 # без --with-deps: системные пакеты не ставим
+playwright>=1.44.0

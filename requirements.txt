@@ -1,0 +1,5 @@
+# Python 3.10+. Только pip-пакеты (готовые wheels), никаких системных установок.
+aiogram>=3.13,<4
+aiohttp>=3.10,<4
+supabase>=2.7.4,<3
+python-dotenv>=1.0.0
